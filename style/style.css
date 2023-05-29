@@ -178,6 +178,12 @@ body {
 
     .cabecalho__menu {
         justify-content: center;
+        gap: 37px;
+    }
+
+    .cabecalho__menu__link {
+        display: block;
+        font-size: 1em;
     }
 
     .apresentacao {
