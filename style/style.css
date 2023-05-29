@@ -134,6 +134,42 @@ body {
     
 }
 
+/* lista do projeto */
+.apresentacao__conteudo__lista {
+    font-size: 1.18rem;
+    font-family: var(--fonte-secundaria);
+    margin-left: 20px;
+   
+}
+
+.lista__projeto {
+    color: #a87a34;
+    text-decoration: none;
+
+}
+
+.lista__projeto:hover {
+    background-color: #42392c;
+}
+
+.link__projetos {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    padding: 21.5px 0;
+    font-size: 1.5rem;
+    font-family:  var(--fonte-secundaria);
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
+    border-radius: 8px;
+}
+
+
+
 @media (max-width: 1200px) {
     
     .cabecalho {
